@@ -37,7 +37,7 @@
 .social {
     display: flex;
     margin-top: 7px;
-    margin-right: 5%;
+    margin-right: 10%;
     width: 35px;
     height: 35px;
 }
@@ -88,4 +88,29 @@ p.item {
     gap: 5px
 }
 
-/*sobre_nos*/
+/*home*/
+
+.rank_up {
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 20%;
+    width: 13%;
+}
+
+.news{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.news_img {
+    margin: 1%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.news_txt {
+    margin-left: 1%;
+}
