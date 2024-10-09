@@ -64,10 +64,15 @@ p.options {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    transition: background-color 0.3s, transform 0.1s; 
 }
 
-p.item {
-    margin-left: 2%;
+p.options:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+}
+
+p.options:active {
+    transform: scale(0.95); 
 }
 
 /*login*/
